@@ -36,7 +36,7 @@ Siga os passos abaixo para replicar o ambiente e executar o projeto.
 
 ### 2. Clonar o Repositório
 ```bash
-git clone [URL_DO_SEU_REPOSITORIO]
+git clone [https://github.com/wallace-pv/Sprint1-ETL-SRAG.git]
 cd Bootcamp-Sprint1
 ```
 
