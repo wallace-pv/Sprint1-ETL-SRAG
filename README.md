@@ -6,6 +6,15 @@ O pipeline extrai dados públicos sobre Síndrome Respiratória Aguda Grave (SRA
 
 ## 🔧 Stack Técnica
 
+<div align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" height="40" alt="python logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jupyter/jupyter-original-wordmark.svg" height="40" alt="jupyter logo"  />
+  <img src="https://www.vectorlogo.zone/logos/apache_spark/apache_spark-icon.svg" height="40" alt="spark logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/microsoftsqlserver/microsoftsqlserver-plain-wordmark.svg" height="40" alt="mssql logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/anaconda/anaconda-original.svg" height="40" alt="anaconda logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kaggle/kaggle-original.svg" height="40" alt="kaggle logo"  />
+</div>
+
 -   **Linguagem:** Python 3.9
 -   **Ambiente:** Anaconda (com ambiente virtual `anaconda-etl`)
 -   **Processamento de Dados:** Apache Spark (via PySpark)
@@ -90,7 +99,3 @@ A implementação deste pipeline foi uma jornada de depuração que revelou desa
 -   **Configuração de Rede do SQL Server:** A conexão JDBC falhou inicialmente devido ao serviço **SQL Server Browser** estar desativado e o protocolo **TCP/IP** não estar habilitado por padrão.
 -   **Qualidade dos Dados de Origem:** A maior dificuldade foi lidar com a inconsistência dos dados no arquivo CSV, que continha múltiplos formatos de data, espaços em branco ocultos, codificação não-padrão e linhas estruturalmente corrompidas.
 -   **Segurança:** Credenciais foram removidas do código e migradas para um arquivo `config.ini`, que é ignorado pelo Git, seguindo as melhores práticas de segurança.
-
-## ✍️ Autor
-
--   **Wallace Fernando Guedes**
