@@ -24,28 +24,6 @@ O pipeline extrai dados públicos sobre Síndrome Respiratória Aguda Grave (SRA
 -   **Aquisição de Dados:** Kaggle API
 -   **Conectividade:** Microsoft JDBC Driver for SQL Server
 
-## 📂 Estrutura do Repositório
-
-```
-/Bootcamp-Sprint1
-|
-|-- .gitignore
-|-- README.md
-|-- config.ini
-|
-|-- dados/
-|   |-- SRAG_01-06.csv
-|
-|-- drivers/
-|   |-- mssql-jdbc-13.2.1.jre11.jar
-|
-|-- notebooks/
-|   |-- validacao_spark.ipynb
-|
-|-- sql/
-    |-- create_database.sql
-    |-- create_table.sql
-```
 
 ## ⚙️ Configuração do Ambiente
 
